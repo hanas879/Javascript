@@ -1,25 +1,25 @@
 function getSleepHours(day) {
   switch(day) {
     case "monday":
-      return 8
+      return 6.12
       break
     case "tuesday":
-      return 7
+      return
       break
     case "wednesday":
-      return 6.5
+      return
       break
     case "thursday":
-      return 7
+      return
       break
     case "friday":
-      return 6
+      return
       break
     case "saturday":
-      return 9
+      return
       break
     case "sunday":
-      return 9
+      return
       break
     default:
       console.log("ERROR!")
