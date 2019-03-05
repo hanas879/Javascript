@@ -3,10 +3,16 @@
 <head>
 	<title>Practice makes perfect</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="calculateTimeToDecimalHTML.js"></script>
+	<script src="sleepDebtCalculator.js"></script>
 </head>
 <body>
-	<h3 id="answer"></h3>
-	<h3 id="number"></h3>
-	<script src="calculateTimeToDecimal.js"></script>
+	<p>Timer:</p><input type="number" name="hours" id="hours"><br>
+	<p>Minutter:</p><input type="number" name="minutes" id="minutes"><br>
+	<button onclick="getUserInput(document.getElementById('hours').value,document.getElementById('minutes').value)">Calculate</button>
+	<br>
+	<br>
+	<div id="output">
+	</div>
 </body>
 </html>

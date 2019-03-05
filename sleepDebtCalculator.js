@@ -4,7 +4,7 @@ function getSleepHours(day) {
       return 6.12
       break
     case "tuesday":
-      return
+      return 6.43
       break
     case "wednesday":
       return
@@ -53,4 +53,4 @@ function calculateSleepDebt() {
   }
 }
 
-calculateSleepDebt()
+//calculateSleepDebt()
