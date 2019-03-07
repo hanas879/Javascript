@@ -1,11 +1,10 @@
-function getUserInput() {
-  hours = parseInt(prompt("Hours"))
-  minutes = parseInt(prompt("Minutes"))
+function getUserInput(hours, minutes) {
 
-  mDes = minutes / 60
+  mDes = parseInt(minutes) / 60
   mDes = parseFloat(mDes.toFixed(2))
 
-  sumDec = mDes + hours
+  sumDec = parseInt(hours) + mDes
 
-  return sumDec
+  //Finner elementet i index.html med id "output" for så å printe "sumDec" i elementet(div)
+  document.getElementById("output").innerHTML = sumDec
 }

@@ -7,10 +7,10 @@ function getSleepHours(day) {
       return 6.43
       break
     case "wednesday":
-      return
+      return 6.17
       break
     case "thursday":
-      return
+      return 6.25
       break
     case "friday":
       return
