@@ -19,7 +19,7 @@ function getSleepHours(day) {
       return 9.82
       break
     case "sunday":
-      return
+      return 5.73
       break
     default:
       console.log("ERROR!")
