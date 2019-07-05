@@ -15,59 +15,41 @@ calculateAreal(1530,15)
 console.log(areal)*/
 //---------------------------------------------------------------------------
 
-//Magic 8-ball with function
-let question = null
-let num = 0
+//Sript for CodeWars website
 
-function randomNumber() {
-	num = Math.floor(Math.random() * 21)
+
+//script to check if an array of names has exactly 4 characters
+// function friend(friends){
+// 	let i = 0
+// 	let trueFriends = []
+// 	while (i < friends.length) {
+// 		if(friends[i].length == 4){
+// 			trueFriends.push(friends[i])
+// 		}
+// 		i += 1
+// 	}
+// 	return(trueFriends)
+// }
+//
+// friend(["Ryan", "Kieran", "Mark"])
+
+
+//Find the middle in a string
+
+function getMiddle(s)
+{
+  if(s.length % 2 == 1){
+    middleChar = Math.ceil(s.length / 2) - 1
+    return s.charAt(middleChar)
+		return "Can NOT be devided by itself"
+	}
+	else {
+		return "CAN be devided by itself"
+	}
 }
 
 
-question = prompt("What is your question?")
 
-if(num === 0){
 
-} else if (num === 1) {
 
-} else if (num === 2) {
-
-} else if (num === 3) {
-
-} else if (num === 4) {
-
-} else if (num === 5) {
-
-} else if (num === 6) {
-
-} else if (num === 7) {
-
-} else if (num === 8) {
-
-} else if (num === 9) {
-
-} else if (num === 10) {
-
-} else if (num === 11) {
-
-} else if (num === 12) {
-
-} else if (num === 13) {
-
-} else if (num === 14) {
-
-} else if (num === 15) {
-
-} else if (num === 16) {
-
-} else if (num === 17) {
-
-} else if (num === 18) {
-
-} else if (num === 19) {
-
-} else if (num === 20) {
-
-}else {
-
-}
+//---------------------------------------------------------------------------
