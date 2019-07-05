@@ -38,13 +38,13 @@ console.log(areal)*/
 
 function getMiddle(s)
 {
+  let middleChar = Math.ceil(s.length / 2) - 1
+
   if(s.length % 2 == 1){
-    middleChar = Math.ceil(s.length / 2) - 1
     return s.charAt(middleChar)
-		return "Can NOT be devided by itself"
 	}
 	else {
-		return "CAN be devided by itself"
+    return s.substring(middleChar, middleChar + 2)
 	}
 }
 
