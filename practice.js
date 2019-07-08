@@ -36,17 +36,28 @@ console.log(areal)*/
 
 //Find the middle in a string
 
-function getMiddle(s)
-{
-  let middleChar = Math.ceil(s.length / 2) - 1
+// function getMiddle(s)
+// {
+//   let middleChar = Math.ceil(s.length / 2) - 1
+//
+//   if(s.length % 2 == 1){
+//     return s.charAt(middleChar)
+// 	}
+// 	else {
+//     return s.substring(middleChar, middleChar + 2)
+// 	}
+// }
+//---------------------------------------------------------------------------
 
-  if(s.length % 2 == 1){
-    return s.charAt(middleChar)
-	}
-	else {
-    return s.substring(middleChar, middleChar + 2)
-	}
+//Add two decimals togheter and output the SUM as a binary number
+function addBinary(a,b) {
+  let sum = a + b
+  return sum.toString(2)
 }
+
+
+
+
 
 
 
